@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Sample page</h1>
+<div id="react-client-app"></div>
+<div id="react-server-app" asp-prerender-module="../Frontend/dist/main-server" asp-prerender-data="new { Prop = 1 }"></div>
+
+@section scripts {
+    <script src="~/dist/client.js" asp-append-version="true"></script>
+}
