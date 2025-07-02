@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ssr-net-core-react-backend
+  description: null
+  annotations:
+    github.com/project-slug: pats/SSR.NetCore.React.Backend
+  tags:
+    - codesnoop
+    - dotnet
+spec:
+  owner: pats
